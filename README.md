@@ -19,7 +19,7 @@ The first big thing i'm planning to add is a sheet feature, sou you won't need a
 
 #### Suggestions
 
-If you find a bug, please make an **issue**, unless it's a security flaw, in this case, send me an [email!!!](felipefbg2005@gmail.com)
+If you find a bug, please make an **issue**, unless it's a security flaw, in this case, send me an email!!!
 
 If you want to make suggestions, or test this bot, dm me!
 
