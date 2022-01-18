@@ -1,0 +1,7 @@
+*.pyc
+.env
+*.json
+
+_pycache_
+ideias
+assets
