@@ -13,17 +13,17 @@ You can roll it more than once prefixing the number of rolls e.g. /roll 2d20 => 
 And you can roll the dice with a bonus: /roll d20 +1 => (x+1)
 
 
-### What's coming in the next updates
+## What's coming in the next updates
 
 The first big thing i'm planning to add is a sheet feature, sou you won't need another application to handle this important part of any Tabletop RPG game!
 
-#### Suggestions
+## Suggestions
 
 If you find a bug, please make an **issue**, unless it's a security flaw, in this case, send me an email!!!
 
 If you want to make suggestions, or test this bot, dm me!
 
-*The bot is not yet public
-**This link doesn't work yet
+* *The bot is not yet public
+* **This link doesn't work yet
 
 Discord: FelipeGuerrino#3136 | [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/felipe-guerrino-18944922a/)](https://www.linkedin.com/in/felipe-guerrino-18944922a/) | [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:felipefbg2005@gmail.com)](mailto:felipefbg2005@gmail.com)
