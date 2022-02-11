@@ -5,18 +5,8 @@ from dotenv import load_dotenv
 
 load_dotenv() #Se for utilizado um arquivo .env
 
-if os.path.exists(os.getcwd() + "/config.json"): #Se for utilizado um arquivo JSON
-
-    with open('./config.json') as f:
-        configData = json.load(f)
-else:
-    configTemplate = {"Owner": "", "Prefix": ""}
-
-    with open(os.getcwd() + "./config.json", "w+") as f:
-        json.dump(configTemplate, f)
-
-owner=configData["Owner"]
-prefix=configData["Prefix"] #JSON
+owner=os.getenv('OWNER')
+prefix="/"
 #usando a config
 
 bot = commands.Bot(command_prefix=prefix)
