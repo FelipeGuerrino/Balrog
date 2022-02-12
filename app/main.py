@@ -56,7 +56,7 @@ async def reload(ctx, extension):
 #load/reload/unload
 
 
-for filename in os.listdir('cogs/'):
+for filename in os.listdir('app/cogs'):
     if filename.endswith('.py'):
         bot.load_extension(f'cogs.{filename[:-3]}')
 #Carrega todas as 'cogs' do bot na inicialização
