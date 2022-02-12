@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv() #Se for utilizado um arquivo .env
 
-owner=os.getenv('OWNER')
+owner=int(os.getenv('OWNER'))
 prefix="/"
 #usando a config
 
