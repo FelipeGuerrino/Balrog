@@ -1,6 +1,6 @@
-import os, json, discord
+import os, discord
 from discord.ext import commands
-from server import keep_alive
+# from server import keep_alive
 from dotenv import load_dotenv
 
 load_dotenv() #Se for utilizado um arquivo .env
@@ -61,5 +61,5 @@ for filename in os.listdir('./cogs'):
         bot.load_extension(f'cogs.{filename[:-3]}')
 #Carrega todas as 'cogs' do bot na inicialização
 
-keep_alive() #Server
+#keep_alive() #Server
 bot.run(os.getenv('TOKEN')) #.env
