@@ -24,4 +24,4 @@ If you find a bug, please make an **issue**, unless it's a security flaw, in thi
 If you want to make suggestions, or test this bot, dm me!
 
 
-Discord: FelipeGuerrino#3136 | [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/felipe-guerrino-18944922a/)](https://www.linkedin.com/in/felipe-guerrino-18944922a/) | [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:felipefbg2005@gmail.com)](mailto:felipefbg2005@gmail.com)
+Discord: FelipeGuerrino#3136 | [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/felipe-guerrino-18944922a/)](https://www.linkedin.com/in/felipe-guerrino-18944922a/) | [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:felipefbg2005@gmail.com)](mailto:balrog.project@gmail.com)
