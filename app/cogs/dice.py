@@ -1,5 +1,8 @@
-import discord, random
+import random
+
+import discord
 from discord.ext import commands
+
 
 class DiceConverter(commands.Converter):        
     async def convert(self, ctx, argument):
@@ -37,15 +40,17 @@ class Dice(commands.Cog):
                Por ex: /r d(x) +1 => (y+1)
             """
             if dice[1] < 101:
-                lista = [i for i in range(1, dice[1]+1)]
-                res = random.choices(lista, k=dice[0])
+                # lista = [i for i in range(1, dice[1]+1)]
+                # res = random.choices(lista, k=dice[0])
+                res = []
+                for i in range(dice[0]):
+                    res.append(random.randint(1, dice[1]))
             
                 if dice[0]==1:
                     await ctx.send(f"{sum(res)} + {bonus}")  
-                    await ctx.send(sum(res) + bonus)
                 else:
                     await ctx.send(f"{res} + {bonus}")
-                    await ctx.send(sum(res) + bonus)
+                await ctx.send(sum(res) + bonus)
 
            
             else:
